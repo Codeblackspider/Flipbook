@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Creaxify - Interactive Flipbook</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Creaxify Flipbook</h1>
+    <div class="flipbook-controls">
+      <button id="prev-btn" class="control-btn">Previous</button>
+      <span id="page-counter">Page 1 of 8</span>
+      <button id="next-btn" class="control-btn">Next</button>
+    </div>
+    <div class="flipbook-container">
+      <div class="flipbook">
+        <div class="hard cover-front">
+          <div class="cover-content">
+            <h2>My Main Test</h2>
+            <small>Creaxify</small>
+          </div>
+        </div>
+        <div class="hard"></div>
+        <div class="page">
+          <div class="page-content">
+            <h3>Welcome Message</h3>
+            <p>Some message about this project</p>
+            <small>Testing project</small>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <img src="images/page1.png" alt="Page 1 Illustration" />
+            <small>Test 1 - Introduction</small>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <img src="images/page1.png" alt="Page 2 Illustration" />
+            <small>Test 2 - Development</small>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <img src="images/page2.png" alt="Page 3 Illustration" />
+            <small>Test 3 - Implementation</small>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <img src="images/page3.png" alt="Page 4 Illustration" />
+            <small>Test 4 - Results</small>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <img src="images/page1.png" alt="Page 5 Illustration" />
+            <small>Test 5 - Conclusion</small>
+          </div>
+        </div>
+        <div class="hard"></div>
+        <div class="hard cover-back">
+          <div class="cover-content">
+            <h2>Thank You</h2>
+            <small>For your attention</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="jquery.js"></script>
+  <script src="turn.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
